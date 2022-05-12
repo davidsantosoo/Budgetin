@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budgetku</string>
+    <string name="welcome_to_budgetku">Welcome to Budgetin</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="sign_in_to_continue">sign in to Continue</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="email">Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_account_sign_up">Don\'t Have Account? Sign up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_to_continue">Sign Up To Continue</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="my_email">My Email</string>
+    <string name="hello">Hello,</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="my_income">My Income</string>
+    <string name="calculator">Calculator</string>
+    <string name="my_expense">My Expense</string>
+    <string name="what_do_you_want_to_record_today">What do you want to record today??</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="change_language">Change Language</string>
+    <string name="total_expense_budget_rp_0">Total Expense Budget : Rp 0</string>
+    <string name="total_income_now_rp_0">Total Income Now : Rp 0</string>
+    <string name="verify_your_email_address">Verify Your Email Address</string>
+    <string name="please_enter_your_registered_email_address_to_receive_a_verification_link">Please enter your registered email address to receive a verification link</string>
+    <string name="send">Send</string>
+    <string name="item_name">item name</string>
+    <string name="note">note</string>
+    <string name="date">DATE</string>
+    <string name="select_a_budget_item">Select A Budget Item</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_note">Enter Note</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="select_expenses_item" translatable="false">Select Expenses Item</string>
+    <string name="Orange" translatable="false">"#ffbf5d"</string>
+
+
+    <string-array name="sales">
+        <item>Select Payment Method</item>
+        <item>Cash</item>
+        <item>E-wallet</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total_stock_amount">Total Stock Amount:</string>
+    <string name="total_item">Total item:</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="sales_by_category">Sales By Category</string>
+
+    <string name="total_stock">Total Stock:</string>
+    <string name="guest">Guest</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="stock_purchase">Stock Purchase</string>
+
+    <string name="total_sales">Total Sales</string>
+>
+    <string name="add_stock">Add Stock</string>
+    <string name="view_stock">View Stock</string>
+    <string name="stock_analysis">Stock Analysis</string>
+    <string name="add_sales">Add Sales</string>
+    <string name="view_sales">View Sales</string>
+    <string name="sales_analysis">Sales Analysis</string>
+
+    <string name="store_address">store_address</string>
+
+    <string name="guest_mail_com">guest@mail.com</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="store_name">Store name</string>
+    <string name="enter_your_store_name">Enter your Store Name</string>
+    <string name="enter_store_location">Enter Store location</string>
+    <string name="location">Location</string>
+    <string name="todo">TODO</string>
+    <string name="business_tips">Business Tips</string>
+    <string name="track_your_progress">Track your progress</string>
+    <string name="_2">2</string>
+    <string name="add_real_value_for_your_customers">Add real value for your customers</string>
+    <string name="_3">3</string>
+    <string name="set_realistic_goal">set Realistic goal</string>
+    <string name="_4">4</string>
+    <string name="create_engagement_strategies">Create Engagement Strategies</string>
+    <string name="list_of_sales_transaction">List of Sales Transaction</string>
+
+    <string name="item_category">Item Category</string>
+    <string name="qty">QTY</string>
+
+    <string name="payment_method">payment method</string>
+    <string name="code">code</string>
+    <string name="size">size</string>
+    <string name="edit">EDIT</string>
+    <string name="category">category</string>
+
+    <string name="name">name</string>
+
+    <string name="are_you_sure_want_to_cancel_your_data_wont_be_saved">are you sure want to cancel? your data wont be saved</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="monthly_sales">Monthly Sales</string>
+    <string name="input_year">Input Year</string>
+
+    <string name="year_sales">Year Sales</string>
+    <string name="input_new_sales">Input New Sales</string>
+    <string name="enter_item_category">Enter Item Category</string>
+
+    <string name="input_quantity">Input Quantity</string>
+    <string name="input_price">Input Price</string>
+    <string name="input_size">Input size</string>
+    <string name="input_item_code">Input Item Code</string>
+
+    <string name="input_new_stock">Input New Stock</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="enter_category">Enter Category</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_size">Enter Size</string>
+
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="enter_item_code">Enter Item Code</string>
+    <string name="enter_new_item_name">Enter new Item Name..</string>
+    <string name="input_date_dd_mm_yyy">Input date(DD/MM/YYY)</string>
+
+    <string name="enter_qty">Enter qty..</string>
+    <string name="enter_code">Enter Code..</string>
+    <string name="rp_0">Rp 0</string>
+    <string name="there_is_no_item_here">There is no Item Here</string>
+    <string name="choose_date">choose date</string>
+    <string name="filter">Filter</string>
+</resources>

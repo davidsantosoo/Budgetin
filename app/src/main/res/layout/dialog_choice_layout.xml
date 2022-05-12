@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_vg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/icon_app"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:elevation="8dp"
+                android:src="@drawable/dialog" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:padding="10dp"
+                android:text="@string/are_you_sure_want_to_cancel_your_data_wont_be_saved"
+                android:textColor="@color/orange"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/poppins"
+                    android:id="@+id/yesChoice"
+                    android:text="@string/yes"
+                    android:textColor="@color/blue"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/poppins"
+                    android:id="@+id/noChoice"
+                    android:text="@string/no"
+                    android:textColor="@color/blue"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

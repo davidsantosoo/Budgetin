@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/orange">
+
+
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/input_new_stock"
+            android:textColor="@color/blue"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:background=" #C7C7CD"
+            android:id="@+id/iv_stock"
+            android:layout_marginTop="5dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_stock_blue"/>
+
+
+            <Button
+                android:id="@+id/choose_image_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="@string/choose_image"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"/>
+
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:id="@+id/todayItemCategory"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_category"
+                app:backgroundTint="@color/blue"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"/>
+            <EditText
+                android:id="@+id/todayItemName"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_name"
+                app:backgroundTint="@color/blue"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/todayAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_price"
+                app:backgroundTint="@color/blue"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/todayItemSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_size"
+                app:backgroundTint="@color/blue"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/dateEdt"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/input_date_dd_mm_yyy"
+                    android:inputType="number"
+                    android:textColor="@color/blue"
+                    app:backgroundTint="@color/blue"
+                    android:textColorHint="@color/blue"
+                    tools:ignore="TextFields" />
+                <Button
+                    android:id="@+id/calendarBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textSize="9sp"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/todayStock"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_quantity"
+                android:inputType="number"
+                android:textColor="@color/blue"
+                app:backgroundTint="@color/blue"
+                android:textColorHint="@color/blue"/>
+            <EditText
+                android:id="@+id/todayCode"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_code"
+                android:textColor="@color/blue"
+                app:backgroundTint="@color/blue"
+                android:textColorHint="@color/blue"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/saveBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>

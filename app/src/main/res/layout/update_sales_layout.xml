@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:src="@drawable/update"
+        android:layout_marginBottom="9dp"/>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/item_name"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/itemSalesSpinnerUpdate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/sales"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@color/orange"
+        >
+
+    </Spinner>
+    <EditText
+        android:id="@+id/itemCategoryUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_category"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+    <EditText
+        android:id="@+id/itemNamesUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_new_item_name"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+    <EditText
+        android:id="@+id/itemQuantityUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_quantity"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+    <EditText
+        android:id="@+id/itemPriceUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_amount"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+
+    <EditText
+        android:id="@+id/itemSizeUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_size"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+    <EditText
+        android:id="@+id/itemCodeUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_item_code"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/dateEdt"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_date_dd_mm_yyy"
+            android:inputType="number"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            tools:ignore="TextFields" />
+        <Button
+            android:id="@+id/calendarBtn"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="9sp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="@string/update"
+                android:textAllCaps="false"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="@string/delete"
+                android:textAllCaps="false"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
